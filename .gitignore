@@ -1,2 +1,21 @@
 # Created by .ignore support plugin (hsz.mobi)
-composer.phar
+/vendor/
+
+# PHPUnit
+/app/phpunit.xml
+#/phpunit.xml
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+# phpunit PHAR
+/phpunit.phar
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
