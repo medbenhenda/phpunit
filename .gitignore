@@ -12,7 +12,7 @@
 /composer.phar
 
 # phpunit PHAR
-/phpunit.phar
+/phpunit-5.3.2.phar
 
 # IntelliJ project files
 .idea
