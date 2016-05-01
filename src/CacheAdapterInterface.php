@@ -3,16 +3,15 @@
  * Created by PhpStorm.
  * User: m.benhenda(benhenda.med@gmail.com)
  * Date: 30/04/2016
- * Time: 00:23
+ * Time: 15:20
  */
 
 namespace Med\Demo;
 
 
-class User
+Interface CacheAdapterInterface
 {
-    public function create($userName, $password)
-    {
+    public function get($key);
 
-    }
+    public function set($key, $value);
 }
